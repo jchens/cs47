@@ -2,7 +2,7 @@ import React from 'react';
 import { Platform, StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import { Images, Profiles } from '../Themes';
 
-export default class ButtonBar extends React.Component {
+export default class ActionBar extends React.Component {
   constructor() {
     super();
   }
