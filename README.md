@@ -5,15 +5,13 @@ Starter files are from https://github.com/CS47-Stanford
 
 ## [Tinder applet](https://github.com/jchens/cs-47/tree/master/tinder%20applet)
 Developed an applet to mimic the look and feel of Tinder’s swipe screen through the implementation of swiping animations, vector icons, alerts, and generation of new profiles.
-<!-- .element width="100px" -->
 
 Version 1
-![Version 1](https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v1.png){:width="100px"}
+![Version 1](https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v1.png){:height="50%" width="50%"}
 <!-- .element width="100px" -->
 
 Version 2 - Dislike alert
 ![Version 2 - Dislike alert](https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20dislike%20alert.png)
-<!-- .element width="100px" -->
 
 Version 2 - Swiping animation (with custom vector icons)
 ![Version 2 - Swiping animation](https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20swiping%20animation.gif)
