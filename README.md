@@ -7,7 +7,7 @@ Starter files are from https://github.com/CS47-Stanford
 Developed an applet to mimic the look and feel of Tinder’s swipe screen through the implementation of swiping animations, vector icons, alerts, and generation of new profiles.
 
 Version 1
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![v1](https://github.com/jchens/cs-47/blob/master/tinder%20applet/v1.png "Logo Title Text 1")
 
 Version 2 - Dislike alert
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
