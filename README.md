@@ -10,8 +10,9 @@ Developed an applet to mimic the look and feel of Tinder’s swipe screen throug
 <img src="https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v1.png" width="300">
 
 ### Version 2
-<p float="left">
-  <img src="https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20dislike%20alert.png" width="300">      
+<p float="center">
+  <img src="https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20dislike%20alert.png" width="300">
+    ⠀⠀⠀⠀
   <img src="https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20swiping%20animation.gif" width="300">
 </p>
 
