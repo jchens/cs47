@@ -11,13 +11,13 @@ These are the screenshots I was aiming to mimic:
 ![alt text](https://github.com/jchens/cs-47/blob/master/tinder%20applet/version%201/screenshot_to_mimic.png)
 
 ### Top bar
-To create the top bar, I arranged the images in a row sure to use set the resizeMode="contain". Throughout this applet, in order to create a responsive application that runs and has a consistent look on both iOS and Android, I made sure to use the component 'Flexbox' with the stylesheets.
+To create the top bar, I arranged the images in a row sure to use set the `resizeMode="contain"`. Throughout this applet, in order to create a responsive application that runs and has a consistent look on both iOS and Android, I made sure to use the component `Flexbox` with the stylesheets.
 [code of stylesheets]
 
 ### Main view
 To create
 I first got the details of Harold's profile and set the state accordingly, so I could later use that information to set the card contents.
-'    
+```  
 var haroldProfile = Profiles.harold;
   this.state = {
     profileImage: haroldProfile.image,
@@ -25,12 +25,12 @@ var haroldProfile = Profiles.harold;
     age: haroldProfile.age,
     occupation: haroldProfile.occupation
   };
-'
-I then used stylesheets to mimic the UI. To ensure the picture always remains a square, I also set 'aspectRatio: 1' in the stylesheet.
+```
+I then used stylesheets to mimic the UI. To ensure the picture always remains a square, I also set `aspectRatio: 1` in the stylesheet.
 
 ### Action bar
-The implementation of this was pretty similar to the top bar, with the addition of 'TouchableOpacity' to allow for "pressable" buttons.
-'
+The implementation of this was pretty similar to the top bar, with the addition of `TouchableOpacity` to allow for "pressable" buttons.
+```
 <TouchableOpacity>
   <View style={styles.button_small}>
     <Image
@@ -40,13 +40,13 @@ The implementation of this was pretty similar to the top bar, with the addition 
     </Image>
   </View>
 </TouchableOpacity>
-'
+```
 
 To clean up my code and make the later steps easier to keep organized, I then turned each of the 3 parts into its own custom component.
-'
+```
 <View style={styles.container}>
   <TopBar/>
   <MainView/>
   <ActionBar/>
 </View>
-'
+```
