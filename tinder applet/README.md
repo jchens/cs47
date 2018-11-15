@@ -26,10 +26,12 @@ var haroldProfile = Profiles.harold;
     occupation: haroldProfile.occupation
   };
 ```
-I then used stylesheets to mimic the UI. To ensure the picture always remains a square, I also set `aspectRatio: 1` in the stylesheet.
+I then used stylesheets to mimic the UI. To ensure the profile picture always remains a square, I also set `aspectRatio: 1` in the stylesheet.
 
 ### Action bar
 The implementation of this was pretty similar to the top bar, with the addition of `TouchableOpacity` to allow for "pressable" buttons.
+
+Rewind button:
 ```
 <TouchableOpacity>
   <View style={styles.button_small}>
@@ -42,7 +44,7 @@ The implementation of this was pretty similar to the top bar, with the addition 
 </TouchableOpacity>
 ```
 
-To clean up my code and make the later steps easier to keep organized, I then turned each of the 3 parts into its own custom component.
+To clean up my code and make the later steps easier to keep organized, I then turned each of the 3 parts into its own custom component to use in `App.js`.
 ```
 <View style={styles.container}>
   <TopBar/>
