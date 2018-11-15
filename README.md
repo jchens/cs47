@@ -13,7 +13,7 @@ Version 2 - Dislike alert
 ![Version 2 - Dislike alert](https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20dislike%20alert.png)
 
 Version 2 - Swiping animation (with custom vector icons)
-![Version 2 - Swiping animation](https://giphy.com/gifs/wach763txpDtdD6QeD)
+![Version 2 - Swiping animation](https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20swiping%20animation.gif)
 
 ## [New York Times article browser](https://github.com/jchens/cs-47/tree/master/nyt%20browser)
 Built a searchable article browser for the New York Times, rendered using a stack navigator and the NYT API.
