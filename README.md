@@ -10,11 +10,7 @@ Developed an applet to mimic the look and feel of Tinder’s swipe screen throug
 <img src="https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v1.png" width="300">
 
 ### Version 2
-<p float="center">
-  <img src="https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20dislike%20alert.png" width="300">
-    ⠀⠀⠀⠀
-  <img src="https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20swiping%20animation.gif" width="300">
-</p>
+<img src="https://github.com/jchens/cs-47/blob/master/tinder%20applet/images/v2%20swiping%20animation.gif" width="300">
 
 ## [New York Times article browser](https://github.com/jchens/cs-47/tree/master/nyt%20browser)
 Built a searchable article browser for the New York Times, rendered using a stack navigator and the NYT API.
