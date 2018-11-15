@@ -8,7 +8,7 @@ First, I focused on replicating the UI of the iconic swipe screen, which I broke
 - Action bar - bar containing all the buttons that users interact with
 
 These are the screenshots I was aiming to mimic:
-![alt text](https://github.com/jchens/cs-47/blob/master/tinder%20applet/version%201/screenshot_to_mimic.png)
+![screenshot to mimic](https://github.com/jchens/cs-47/blob/master/tinder%20applet/version%201/screenshot_to_mimic.png)
 
 ### Top bar
 To create the top bar, I arranged the images in a row sure to use set the `resizeMode="contain"`. Throughout this applet, in order to create a responsive application that runs and has a consistent look on both iOS and Android, I made sure to use the component `Flexbox` with the stylesheets.
