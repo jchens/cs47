@@ -12,7 +12,16 @@ These are the screenshots I was aiming to mimic:
 
 ### Top bar
 To create the top bar, I arranged the images in a row sure to use set the `resizeMode="contain"`. Throughout this applet, in order to create a responsive application that runs and has a consistent look on both iOS and Android, I made sure to use the component `Flexbox` with the stylesheets.
-[code of stylesheets]
+```
+nav_bar: {
+  flexDirection: 'row',
+  height: Platform.OS === 'ios' ? 44 : 56,
+  alignItems: 'center',
+  justifyContent: 'flex-end',
+  backgroundColor: '#F0F0F0',
+  paddingTop: 10,
+},
+```
 
 ### Main view
 To create
