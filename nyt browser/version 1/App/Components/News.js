@@ -1,12 +1,3 @@
-/*
-*
-* Assignment 3
-* Starter Files
-*
-* CS47
-* Oct, 2018
-*/
-
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { StyleSheet, SafeAreaView, View, FlatList, Text, Linking, TouchableOpacity } from 'react-native'

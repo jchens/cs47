@@ -1,12 +1,3 @@
-/*
-*
-* Assignment 3
-* Starter Files
-*
-* CS47
-* Oct, 2018
-*/
-
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView} from 'react-native';
 import { Dimensions, Image, Keyboard, Button, Component, TextInput, ActivityIndicator } from 'react-native';
@@ -15,6 +6,7 @@ import APIRequest from './App/Config/APIRequest'
 
 import News from './App/Components/News'
 import Search from './App/Components/Search'
+import Logo from './App/Components/Logo'
 
 export default class App extends React.Component {
 
@@ -41,6 +33,7 @@ export default class App extends React.Component {
     this.setState({loading: false, articles: resultArticles})
   }
 
+  // from starter files
   getArticleContent = () => {
     const {articles, loading} = this.state;
 
@@ -65,11 +58,7 @@ export default class App extends React.Component {
       <SafeAreaView style={styles.container}>
 
         {/*Logo*/}
-        <Image
-          resizeMode="contain"
-          style={styles.logo}
-          source={Images.logo}
-        />
+        <Logo />
 
         {/*Search Bar*/}
         <Search loadArticles={this.loadArticles}/>
@@ -84,15 +73,10 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'column',
     backgroundColor: Colors.snow,
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     alignItems: 'stretch',
-  },
-
-  logo: {
-    flex: 0.2,
-    width: Dimensions.get('window').width,
-    backgroundColor: Colors.snow,
   },
 
 });
