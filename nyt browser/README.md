@@ -11,7 +11,7 @@ I broke down the features into 3 components.
 This is just an image of the NYT's logo that takes up the width of the screen. To ensure that on all devices, I used the `Dimensions` API to calculate the width.
 
 ```
-width: Dimensions.get('window').width,
+width: Dimensions.get('window').width
 ```
 
 ### Search
@@ -51,8 +51,6 @@ loadArticles = async (searchTerm = '', category = '') => {
 }
 ```
 
-
-
 I did conditional rendering to render an ActivityIndicator instead of a List when the articles were loading.
 
 ```
@@ -74,7 +72,6 @@ getArticleContent = () => {
   )
 }
 ```
-
 
 Then to display the articles, I implemented a `FlatList`. In order to implement the “tap to view” functionality, I used the `url` property of the article along with the `Linking` component from the package react-native.
 
