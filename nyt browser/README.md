@@ -12,7 +12,6 @@ This is just an image of the NYT's logo that takes up the width of the screen. T
 
 ```
 width: Dimensions.get('window').width,
-
 ```
 
 ### Search
