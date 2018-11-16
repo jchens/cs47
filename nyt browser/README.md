@@ -53,6 +53,7 @@ loadArticles = async (searchTerm = '', category = '') => {
 ```
 
 
+
 I did conditional rendering to render an ActivityIndicator instead of a List when the articles were loading.
 
 ```
@@ -74,6 +75,7 @@ getArticleContent = () => {
   )
 }
 ```
+
 
 Then to display the articles, I implemented a `FlatList`. In order to implement the “tap to view” functionality, I used the `url` property of the article along with the `Linking` component from the package react-native.
 
